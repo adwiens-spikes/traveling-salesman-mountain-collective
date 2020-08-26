@@ -2,6 +2,7 @@
 # problem using naive approach. 
 from sys import maxsize 
 import pprint
+from copy import copy
 pp = pprint.PrettyPrinter(indent=4)
 V = 13
 
@@ -34,8 +35,8 @@ def travellingSalesmanProblem(graph, s):
     min_path = min(min_path, current_pathweight) 
 
     if min_path == current_pathweight:
-      print(min_path, vertex)
-      min_vertex = vertex
+      min_vertex = copy(vertex)
+      print(min_path, min_vertex)
 
     if not next_permutation(vertex): 
       break
