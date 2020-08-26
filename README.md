@@ -33,7 +33,6 @@ Result:
 | a basin          | st. louis        |    802 | 13.3667  |
 +------------------+------------------+--------+----------+
 3.261111 total days driving
-
 ```
 
 Modified from [sanjeev2552's script](https://www.geeksforgeeks.org/traveling-salesman-problem-tsp-implementation/)
