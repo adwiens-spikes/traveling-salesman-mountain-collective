@@ -77,19 +77,19 @@ if __name__ == "__main__":
 
   # matrix representation of graph, in minutes of travel time:
   #
-  # alta
-  # arapahoe basin
-  # aspen snowmass
-  # big sky
-  # grand targhee
-  # jackson hole
-  # mammoth mountain
-  # snowbird
-  # squaw valley
-  # sugarbush
-  # sugarloaf
-  # taos
-  # st. louis (update the last column for your city)
+  # 0-alta
+  # 1-arapahoe basin
+  # 2-aspen snowmass
+  # 3-big sky
+  # 4-grand targhee
+  # 5-jackson hole
+  # 6-mammoth mountain
+  # 7-snowbird
+  # 8-squaw valley
+  # 9-sugarbush
+  # 10-sugarloaf
+  # 11-taos
+  # 12-st. louis (update the last column for your city)
   #
   graph = [[0, 458, 402, 371, 299, 306, 532, 3, 520, 2100, 2220, 640, 1184],\
   [0, 0, 156, 667, 548, 502, 860, 559, 926, 1800, 1920, 302, 802],\
