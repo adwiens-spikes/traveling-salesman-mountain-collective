@@ -3,3 +3,5 @@ Finds shortest path to all [Mountain Collective](https://mountaincollective.com/
 * `tsp.py` is a standalone script that prints to console
 * `s` := starting & ending location (index)
 * `graph` := upper-triangular adjacency matrix (minutes between location pairs)
+
+Modified from [sanjeev2552's script](https://www.geeksforgeeks.org/traveling-salesman-problem-tsp-implementation/)
